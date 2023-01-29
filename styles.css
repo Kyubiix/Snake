@@ -1,0 +1,33 @@
+/* Center and size the canvas */
+#game {
+  display: block;
+  margin: 50px auto;
+  border: 10px solid #333;
+  border-radius: 20px;
+  background-color: #111;
+}
+
+/* Style the snake */
+#game .snake {
+  background-color: #00ff00;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+/* Style the food */
+#game .food {
+  background-color: #ff0000;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+/* Style the score text */
+#game .score {
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
